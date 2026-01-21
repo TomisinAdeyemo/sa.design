@@ -7,20 +7,12 @@ const PROJECTS = [
     year: "—",
     cover: "assets/covers/1789.jpg",
   },
-  { slug: "partna", client: "Payourse", title: "Partna(YCW22)", year: "—", cover: "assets/covers/partna.jpg" },
+  { slug: "partna", client: "Fetch", title: "Partna(YCW22)", year: "2025", cover: "assets/covers/partna.jpg" },
   { slug: "ultima", client: "Ultima Studios", title: "NAS'24", year: "—", cover: "assets/covers/ultima.jpg" },
   { slug: "fastr", client: "FTL", title: "FASTR", year: "—", cover: "assets/covers/fastr.jpg" },
   { slug: "gruve", client: "Gruve Ticketing", title: "Gruve Identity", year: "2022", cover: "assets/covers/gruve.jpg" }, // :contentReference[oaicite:2]{index=2}
   { slug: "uwana", client: "Uwana Energy", title: "Uwana Refresh", year: "—", cover: "assets/covers/uwana.jpg" },
   { slug: "wabi", client: "Wabi Latam", title: "Wabi", year: "—", cover: "assets/covers/wabi.jpg" },
-  { slug: "mindcontrol", client: "Better Help", title: "Mind Control", year: "—", cover: "assets/covers/mindcontrol.jpg" },
-  { slug: "startup-fest", client: "Get Equity", title: "Startup Fest", year: "—", cover: "assets/covers/startup-fest.jpg" },
-  { slug: "kaza", client: "Kaza Pay", title: "Kaza Identity", year: "—", cover: "assets/covers/kaza.jpg" },
-  { slug: "coinprofile", client: "Payourse", title: "Coinprofile 2.0", year: "—", cover: "assets/covers/coinprofile.jpg" },
-  { slug: "violet", client: "Violet Id Tech", title: "Violet Visual Identity", year: "—", cover: "assets/covers/violet.jpg" },
-  { slug: "mellicell", client: "Mellicell", title: "Mellicell Identity", year: "—", cover: "assets/covers/mellicell.jpg" },
-  { slug: "cartel", client: "Personal", title: "Creative Cartel", year: "—", cover: "assets/covers/cartel.jpg" },
-  { slug: "planet3r", client: "Planet 3R", title: "Planet 3R", year: "—", cover: "assets/covers/planet3r.jpg" },
 ];
 
 function $(sel, parent = document){ return parent.querySelector(sel); }
