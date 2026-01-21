@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Project | Ameji</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="nav">
+        <a class="brand" href="work.html" aria-label="Ameji">
+          <span class="brand-dot"></span>
+          <span>Ameji</span>
+        </a>
+
+        <nav class="navlinks" aria-label="Primary">
+          <a data-nav href="work.html" class="active">Work</a>
+          <a data-nav href="insights.html">Insights</a>
+          <a data-nav href="about.html">About</a>
+          <a data-nav href="mailto:mrameji.iko@gmail.com">Contact</a>
+        </nav>
+
+        <div class="nav-cta">
+          <button class="burger" id="burgerBtn" aria-label="Open menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+    <div class="mobile-panel" role="dialog" aria-modal="true">
+      <div class="top">
+        <div class="brand"><span class="brand-dot"></span><span>Ameji</span></div>
+        <button class="btn" id="closeDrawer">Close</button>
+      </div>
+
+      <div class="mobile-links">
+        <a href="work.html">Work</a>
+        <a href="insights.html">Insights</a>
+        <a href="about.html">About</a>
+        <a href="mailto:mrameji.iko@gmail.com">Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <div class="container" id="projectRoot"></div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="small">Ameji © 2024 All rights reserved</div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About | Ameji</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="nav">
+        <a class="brand" href="work.html" aria-label="Ameji">
+          <span class="brand-dot"></span>
+          <span>Ameji</span>
+        </a>
+
+        <!-- Desktop -->
+        <nav class="navlinks" aria-label="Primary">
+          <a href="work.html">Work</a>
+          <a href="insights.html">Insights</a>
+          <a href="about.html" class="active">About</a>
+          <a href="mailto:mrameji.iko@gmail.com">Contact</a>
+        </nav>
+
+        <div class="nav-cta">
+          <button class="burger" id="burgerBtn" aria-label="Open menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile drawer -->
+  <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+    <div class="mobile-panel" role="dialog" aria-modal="true">
+      <div class="top">
+        <div class="brand"><span class="brand-dot"></span><span>Ameji</span></div>
+        <button class="btn" id="closeDrawer">Close</button>
+      </div>
+
+      <div class="mobile-links">
+        <a href="work.html">Work</a>
+        <a href="insights.html">Insights</a>
+        <a href="about.html">About</a>
+        <a href="mailto:mrameji.iko@gmail.com">Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <div class="container">
+      <div class="kicker">About</div>
+      <h1 class="h1">About</h1>
+
+      <div class="about-wrap">
+        <!-- Bio -->
+        <section class="about-card">
+          <p>
+            I'm a Nigerian based graphic designer &amp; brand identity designer who took his passion for design too serious.
+            I've been fortunate to have had a rewarding career in design so far. I started my design career at Eximia Design Studio,
+            then as a designer for the Lagos State Government, after which I worked at Mellicell, Planet3R and eventually at Partna (YC W22)
+            where I grew from the role of graphic designer to Head of Brand.
+          </p>
+
+          <p>
+            I'm currently really interested in marketing and recently started Autobuddy as a result. I'm also contributing to Augmented Reality
+            Interface design as a side hobby. I'm a Chelsea fan (Arsenal &amp; Man Utd suck) and also recently became a follower of Jesus!
+          </p>
+
+          <p>
+            Other interests are learning about History, Philosophy and Gaming. My favourite games are Cyberpunk 2077, Red Dead Redemption 2
+            and my favourite movies as of today are Dune, LOTR and Pirates of the Caribbean.
+          </p>
+
+          <p>
+            If you'd love to chat about any topic, here's my public number <strong style="color:var(--text);">+2349062365541</strong>.
+          </p>
+          <!-- Bio + number reflect the live About page copy :contentReference[oaicite:1]{index=1} -->
+        </section>
+
+        <!-- Quick facts / sidebar -->
+        <aside class="about-card">
+          <div class="footer-title" style="margin:0 0 10px;">Quick Links</div>
+          <a class="pill" style="display:inline-block; margin:0 8px 10px 0;" href="work.html">My Work</a>
+          <a class="pill" style="display:inline-block; margin:0 8px 10px 0;" href="offbrand.html">Off Brand</a>
+          <a class="pill" style="display:inline-block; margin:0 8px 10px 0;" href="mailto:mrameji.iko@gmail.com">Email</a>
+
+          <div class="footer-title" style="margin:18px 0 10px;">Focus</div>
+          <div class="pill" style="display:inline-block; margin:0 8px 10px 0;">Brand Identity</div>
+          <div class="pill" style="display:inline-block; margin:0 8px 10px 0;">Visual Systems</div>
+          <div class="pill" style="display:inline-block; margin:0 8px 10px 0;">Creative Direction</div>
+        </aside>
+      </div>
+
+      <!-- Services -->
+      <section class="services">
+        <div class="kicker">Services I Offer</div>
+        <h2 style="margin:10px 0 0; font-size:26px; letter-spacing:-.3px;">Services I Offer</h2>
+
+        <div class="services-grid">
+          <div class="service">Graphic Design <small>Design support &amp; visuals</small></div>
+          <div class="service">Comms &amp; Content Strategy <small>Messaging + content direction</small></div>
+          <div class="service">Brand Strategy <small>Positioning + narrative</small></div>
+          <div class="service">Art Direction <small>Look/feel + execution</small></div>
+          <div class="service">No Code Design &amp; Dev <small>Framer / Web builds</small></div>
+          <div class="service">Brand Identity Design <small>Identity systems</small></div>
+        </div>
+        <!-- Service headings reflect the About page sections :contentReference[oaicite:2]{index=2} -->
+      </section>
+
+      <!-- Availability -->
+      <section class="availability" id="availability">
+        <div class="kicker">Availability</div>
+        <h2>I'm currently open to new roles and new contract projects.</h2>
+        <div>
+          <a href="mailto:mrameji.iko@gmail.com">Send a mail to mrameji.iko@gmail.com</a>
+        </div>
+        <!-- Availability block matches site wording :contentReference[oaicite:3]{index=3} -->
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-title">Ameji</div>
+          <div>Just looking through &amp; not hiring? Drop your email &amp; I'd say Hi.</div>
+          <div class="small">Ameji © 2024 All rights reserved</div>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-title">Pages</div>
+          <a href="work.html">My Work</a>
+          <a href="about.html">About</a>
+          <a href="offbrand.html">Off Brand</a>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-title">Socials</div>
+          <a href="mailto:mrameji.iko@gmail.com">Send an Email</a>
+          <a href="https://x.com" target="_blank" rel="noreferrer">X.com</a>
+          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://www.behance.net" target="_blank" rel="noreferrer">Behance</a>
+          <a href="terms.html">Terms</a>
+          <a href="privacy.html">Privacy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

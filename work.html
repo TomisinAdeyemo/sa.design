@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Work | Ameji</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="nav">
+        <a class="brand" href="work.html" aria-label="Ameji">
+          <span class="brand-dot"></span>
+          <span>Ameji</span>
+        </a>
+
+        <!-- Desktop -->
+        <nav class="navlinks" aria-label="Primary">
+          <a data-nav href="work.html" class="active">Work</a>
+          <a data-nav href="insights.html">Insights</a>
+          <a data-nav href="about.html">About</a>
+          <a data-nav href="mailto:mrameji.iko@gmail.com">Contact</a>
+        </nav>
+
+        <div class="nav-cta">
+          <button class="burger" id="burgerBtn" aria-label="Open menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile drawer -->
+  <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+    <div class="mobile-panel" role="dialog" aria-modal="true">
+      <div class="top">
+        <div class="brand"><span class="brand-dot"></span><span>Ameji</span></div>
+        <button class="btn" id="closeDrawer">Close</button>
+      </div>
+
+      <div class="mobile-links">
+        <a href="work.html">Work</a>
+        <a href="insights.html">Insights</a>
+        <a href="about.html">About</a>
+        <a href="mailto:mrameji.iko@gmail.com">Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <div class="container">
+      <div class="kicker">Selected Work</div>
+      <h1 class="h1">Selected Work</h1>
+      <p class="lead">
+        Here are some projects I have created, directed, and been involved in over the past 6 years. 
+      </p>
+      <!-- text mirrors the Work page intro :contentReference[oaicite:7]{index=7} -->
+
+      <section class="section">
+        <div class="grid" id="workGrid"></div>
+      </section>
+
+      <section class="availability" id="availability">
+        <div class="kicker">Availability</div>
+        <h2>I'm currently open to new roles and new contract projects.</h2>
+        <div>
+          <a href="mailto:mrameji.iko@gmail.com">Send a mail to mrameji.iko@gmail.com</a>
+        </div>
+        <!-- availability copy mirrors page :contentReference[oaicite:8]{index=8} -->
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-title">Ameji</div>
+          <div>Just looking through &amp; not hiring? Drop your email &amp; I'd say Hi.</div>
+          <div class="small">Ameji © 2024 All rights reserved</div>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-title">Pages</div>
+          <a href="work.html">My Work</a>
+          <a href="about.html">About</a>
+          <a href="offbrand.html">Off Brand</a>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-title">Socials</div>
+          <a href="mailto:mrameji.iko@gmail.com">Send an Email</a>
+          <a href="https://x.com" target="_blank" rel="noreferrer">X.com</a>
+          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://www.behance.net" target="_blank" rel="noreferrer">Behance</a>
+          <a href="terms.html">Terms</a>
+          <a href="privacy.html">Privacy</a>
+        </div>
+      </div>
+      <!-- footer structure/labels appear on the site :contentReference[oaicite:9]{index=9} -->
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
